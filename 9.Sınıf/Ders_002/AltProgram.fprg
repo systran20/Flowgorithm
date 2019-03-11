@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="omar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-11 11:13:44 "/>
+        <attribute name="created" value="b21hcjtPTUFSLUJJTEdJU0FZQVI7MjAxOS0wMy0xMTsiMTA6NTg6NDUgIjsyNzE3"/>
+        <attribute name="edited" value="b21hcjtPTUFSLUJJTEdJU0FZQVI7MjAxOS0wMy0xMTsiMTE6MTM6NDQgIjsyOzI4MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Secenek" type="Integer" array="False" size=""/>
+            <do expression="secenek!=0">
+                <output expression="&quot;&lt;&lt;&lt; MEN&#220; &gt;&gt;&gt;&quot;" newline="True"/>
+                <output expression="&quot;0-&#199;IKI&#350;&quot;" newline="True"/>
+                <output expression="&quot;1-Kare Alan&#305; Hesapla&quot;" newline="True"/>
+                <output expression="&quot;2-Daire Alan&#305; Hesapla&quot;" newline="True"/>
+                <output expression="&quot;3-&#220;&#231;gen Alan&#305; Hesapla&quot;" newline="True"/>
+                <output expression="&quot;Se&#231;iminiz-&gt;&quot;" newline="False"/>
+                <input variable="Secenek"/>
+                <if expression="Secenek==0">
+                    <then>
+                        <output expression="&quot;G&#220;LE G&#220;LE&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="Secenek==1">
+                    <then>
+                        <output expression="&quot;Kare Alan&#305;&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="Secenek==2">
+                    <then>
+                        <output expression="&quot;Daire Alan&#305;&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="Secenek==3">
+                    <then>
+                        <output expression="&quot;&#220;&#231;gen Alan&#305;&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </do>
+        </body>
+    </function>
+    <function name="DaireAlani" type="Real" variable="sonuc">
+        <parameters>
+            <parameter name="r" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonuc" type="Real" array="False" size=""/>
+            <assign variable="sonuc" expression="3.14*r*r"/>
+        </body>
+    </function>
+    <function name="KareAlani" type="Integer" variable="sonuc">
+        <parameters>
+            <parameter name="x" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonuc" type="Integer" array="False" size=""/>
+            <assign variable="sonuc" expression="x*x"/>
+        </body>
+    </function>
+    <function name="UcgenAlani" type="Real" variable="sonuc">
+        <parameters>
+            <parameter name="t" type="Integer" array="False"/>
+            <parameter name="h" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonuc" type="Real" array="False" size=""/>
+            <assign variable="sonuc" expression="t*h/2"/>
+        </body>
+    </function>
+</flowgorithm>
