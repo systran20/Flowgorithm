@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#214;&#286;RETMEN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-12 03:24:26 &#214;&#214;"/>
+        <attribute name="created" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0xMDswMzoyNTowOSDDlsOWOzMxMTM="/>
+        <attribute name="edited" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0xMjswMzoyNDoyNiDDlsOWOzEwOzMyNjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="(1.... n) e kadar olan say&#305;lar&#305;n toplam&#305;n&#305; D&#214;NG&#220;S&#220;Z, FORM&#220;LS&#220;Z BULMA.&#13;&#10;RECURS&#304;VE "/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="YAZ(10)"/>
+        </body>
+    </function>
+    <function name="YAZ" type="Integer" variable="sonuc">
+        <parameters>
+            <parameter name="n" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonuc" type="Integer" array="False" size=""/>
+            <comment text="RECURS&#304;VE FONKS&#304;YON SONLANMA KO&#350;ULU&#13;&#10;n==1"/>
+            <if expression="n&gt;1">
+                <then>
+                    <comment text="SONA GELMED&#304;YSE BU &#304;&#350;LEM&#304; YAPMAYA DEVAM ET"/>
+                    <assign variable="sonuc" expression="YAZ(n-1)"/>
+                </then>
+                <else>
+                    <comment text="BASE CASE"/>
+                    <assign variable="sonuc" expression="n"/>
+                </else>
+            </if>
+            <output expression="&quot;n:&quot; &amp; n" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

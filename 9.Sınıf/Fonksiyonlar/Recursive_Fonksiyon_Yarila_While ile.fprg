@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#214;&#286;RETMEN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-15 10:46:07 &#214;S"/>
+        <attribute name="created" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0xNTsxMDoyNTozNSDDllM7Mjk4NA=="/>
+        <attribute name="edited" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0xNTsxMDo0NjowNyDDllM7MjszMDk1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <output expression="&quot;Pozitif Bir Tamsay&#305; giriniz:&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <while expression="sayi!=0">
+                <output expression="Yarila(sayi)" newline="True"/>
+                <output expression="&quot;Pozitif Bir Tamsay&#305; giriniz:&quot;" newline="True"/>
+                <input variable="sayi"/>
+            </while>
+            <output expression="&quot;G&#252;le G&#252;le&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="Yarila" type="Integer" variable="sonuc">
+        <parameters>
+            <parameter name="x" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonuc" type="Integer" array="False" size=""/>
+            <declare name="gecici" type="Integer" array="False" size=""/>
+            <if expression="x&gt;1">
+                <then>
+                    <comment text="recursive"/>
+                    <output expression="x" newline="True"/>
+                    <assign variable="gecici" expression="x/2"/>
+                    <assign variable="sonuc" expression="Yarila(gecici)"/>
+                </then>
+                <else>
+                    <comment text="Base"/>
+                    <assign variable="sonuc" expression="1"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

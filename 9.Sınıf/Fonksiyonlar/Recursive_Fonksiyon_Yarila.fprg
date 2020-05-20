@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#214;&#286;RETMEN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-10 04:20:37 &#214;&#214;"/>
+        <attribute name="created" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0xMDswMzo0Njo0MyDDlsOWOzMxMTQ="/>
+        <attribute name="edited" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0xMDswNDoyMDozNyDDlsOWOzI7MzIxOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Girilen &#199;&#304;FT say&#305;n&#305;n, 1 e kadar s&#252;rekli yar&#305;s&#305;n&#305; ekrana yazan program"/>
+            <comment text="&#214;Z Y&#304;NELEMEL&#304;&#13;&#10;RECURSIVE"/>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <output expression="&quot;B&#304;R SAYI G&#304;R&#304;N&#304;Z:&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <output expression="YarisiniBul(sayi)" newline="True"/>
+        </body>
+    </function>
+    <function name="YarisiniBul" type="Integer" variable="sonuc">
+        <parameters>
+            <parameter name="x" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonuc" type="Integer" array="False" size=""/>
+            <declare name="gecici" type="Integer" array="False" size=""/>
+            <if expression="x&gt;1">
+                <then>
+                    <output expression="x" newline="True"/>
+                    <assign variable="gecici" expression="x/2"/>
+                    <assign variable="sonuc" expression="YarisiniBul(gecici)"/>
+                </then>
+                <else>
+                    <assign variable="sonuc" expression="1"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

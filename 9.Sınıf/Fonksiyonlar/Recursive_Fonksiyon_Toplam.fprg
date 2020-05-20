@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#214;&#286;RETMEN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-15 09:14:29 &#214;S"/>
+        <attribute name="created" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0xMDswMzoyNTowOSDDlsOWOzMxMTM="/>
+        <attribute name="edited" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0xNTswOToxNDoyOSDDllM7NDszMTA0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="D&#214;NG&#220;S&#220;Z TOPLAM BULMA"/>
+            <output expression="topla(4)" newline="True"/>
+        </body>
+    </function>
+    <function name="topla" type="Integer" variable="sonuc">
+        <parameters>
+            <parameter name="n" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonuc" type="Integer" array="False" size=""/>
+            <comment text="RECURS&#304;VE FONKS&#304;YON SONLANMA KO&#350;ULU&#13;&#10;n==1"/>
+            <if expression="n!=1">
+                <then>
+                    <comment text="SONA GELMED&#304;YSE BU &#304;&#350;LEM&#304; YAPMAYA DEVAM ET"/>
+                    <assign variable="sonuc" expression="n+topla(n-1)"/>
+                </then>
+                <else>
+                    <comment text="BASE CASE"/>
+                    <assign variable="sonuc" expression="1"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

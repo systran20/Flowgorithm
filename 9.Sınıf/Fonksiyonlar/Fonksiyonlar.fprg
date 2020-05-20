@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#214;&#286;RETMEN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-04 12:17:46 &#214;&#214;"/>
+        <attribute name="created" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0wMzsxMDo1NDowNiDDllM7Mjk4MQ=="/>
+        <attribute name="edited" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0wNDsxMjoxNzo0NiDDlsOWOzE7MzIyNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tekrar" type="Integer" array="False" size=""/>
+            <declare name="yazi" type="String" array="False" size=""/>
+            <output expression="&quot;ekrana yazmak istedi&#287;iniz mesaj&#305; giriniz:&quot;" newline="True"/>
+            <input variable="yazi"/>
+            <output expression="&quot;Tekrar say&#305;s&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="tekrar"/>
+            <call expression="YAZ(yazi , tekrar)"/>
+        </body>
+    </function>
+    <function name="KareAl" type="Integer" variable="sonuc">
+        <parameters>
+            <parameter name="sayi" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonuc" type="Integer" array="False" size=""/>
+            <assign variable="sonuc" expression="sayi * sayi"/>
+        </body>
+    </function>
+    <function name="OnFazla" type="Integer" variable="sonuc">
+        <parameters>
+            <parameter name="sayi" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonuc" type="Integer" array="False" size=""/>
+            <assign variable="sonuc" expression="sayi + 10"/>
+        </body>
+    </function>
+    <function name="Topla" type="Integer" variable="sonuc">
+        <parameters>
+            <parameter name="sayi1" type="Integer" array="False"/>
+            <parameter name="sayi2" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonuc" type="Integer" array="False" size=""/>
+            <assign variable="sonuc" expression="sayi1 + sayi2"/>
+        </body>
+    </function>
+    <function name="YAZ" type="None" variable="">
+        <parameters>
+            <parameter name="mesaj" type="String" array="False"/>
+            <parameter name="sayi" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <comment text="sayi de&#287;i&#351;keni POZ&#304;T&#304;F OLMAK ZORUNDA&#13;&#10;sayi&gt;0"/>
+            <if expression="sayi&gt;0">
+                <then>
+                    <declare name="i" type="Integer" array="False" size=""/>
+                    <for variable="i" start="1" end="sayi" direction="inc" step="1">
+                        <output expression="mesaj" newline="True"/>
+                    </for>
+                </then>
+                <else>
+                    <comment text="HATA MESAJI VER"/>
+                    <output expression="&quot;Tekrar say&#305;s&#305; pozitif bir de&#287;er olmal&#305;&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
