@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-02-15 12:26:30 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE3OzIwMTktMDItMTU7MTI6MjI6MDIgw5ZTOzIzNzg="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE3OzIwMTktMDItMTU7MTI6MjY6MzAgw5ZTOzE7MjQ5MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="String" array="False" size=""/>
+            <assign variable="a" expression="&quot;123&quot;"/>
+            <output expression="ToInteger(a) + 5" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

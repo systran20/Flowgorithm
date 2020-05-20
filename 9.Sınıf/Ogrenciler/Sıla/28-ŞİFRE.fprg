@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-02-08 01:03:06 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE2OzIwMTktMDItMDg7MTI6NDU6MDEgw5ZTOzIzODM="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE2OzIwMTktMDItMDg7MDE6MDM6MDYgw5ZTOzE7MjQ4OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="&#304;S&#304;M" type="String" array="False" size=""/>
+            <declare name="UZUNLUK" type="Integer" array="False" size=""/>
+            <declare name="&#304;" type="Integer" array="False" size=""/>
+            <input variable="&#304;S&#304;M"/>
+            <assign variable="UZUNLUK" expression="LEN(&#304;S&#304;M)"/>
+            <for variable="&#304;" start="1" end="UZUNLUK" direction="inc" step="1">
+                <output expression="ToCode(Char(&#304;S&#304;M, &#304;-1))" newline="True"/>
+            </for>
+            <output expression="0" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

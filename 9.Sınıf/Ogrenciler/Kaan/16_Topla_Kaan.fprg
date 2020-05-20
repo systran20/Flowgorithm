@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-08 01:58:12 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE3OzIwMTktMDMtMDg7MDE6MzY6MzUgw5ZTOzIzOTA="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE3OzIwMTktMDMtMDg7MDE6NTg6MTIgw5ZTOzE7MjQ5Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="TOPLA(8,9)" newline="True"/>
+        </body>
+    </function>
+    <function name="TOPLA" type="Integer" variable="sonuc">
+        <parameters>
+            <parameter name="x" type="Integer" array="False"/>
+            <parameter name="y" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonuc" type="Integer" array="False" size=""/>
+            <assign variable="sonuc" expression="x+y"/>
+        </body>
+    </function>
+</flowgorithm>

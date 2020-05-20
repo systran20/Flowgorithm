@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-01-04 11:04:32 &#214;&#214;"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE2OzIwMTktMDEtMDQ7MTA6NTU6NTEgw5bDljsyNTEz"/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE2OzIwMTktMDEtMDQ7MTE6MDQ6MzIgw5bDljsxOzI2MTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="MESAJ" type="String" array="False" size=""/>
+            <assign variable="MESAJ" expression="&quot;MERHABA&quot;"/>
+            <output expression="CHAR (MESAJ,0)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

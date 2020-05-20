@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-12-21 12:06:16 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDAxOzIwMTgtMTItMjE7MTI6MDE6MTQgw5ZTOzIzNjg="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDAxOzIwMTgtMTItMjE7MTI6MDY6MTYgw5ZTOzE7MjQ4Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="String veri tipi &#246;rne&#287;i"/>
+            <declare name="mesaj" type="String" array="False" size=""/>
+            <assign variable="mesaj" expression="&quot;Merhaba G&#252;zel &#304;nsan :)&quot;"/>
+            <output expression="mesaj" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

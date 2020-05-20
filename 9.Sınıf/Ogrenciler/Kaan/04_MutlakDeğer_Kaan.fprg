@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-12-28 11:59:47 &#214;&#214;"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE3OzIwMTgtMTItMjg7MTE6NDM6MDAgw5bDljsyNTEz"/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE3OzIwMTgtMTItMjg7MTE6NTk6NDcgw5bDljsxOzI2Mzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Say&#305;" type="Integer" array="False" size=""/>
+            <input variable="Say&#305;"/>
+            <if expression="Say&#305;&lt;0">
+                <then>
+                    <assign variable="Say&#305;" expression="Say&#305;*-1"/>
+                    <output expression="Say&#305;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

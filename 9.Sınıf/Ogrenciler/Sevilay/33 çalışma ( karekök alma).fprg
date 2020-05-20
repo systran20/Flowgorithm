@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-22 12:39:56 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDAxOzIwMTktMDMtMjI7MTI6Mzg6MzQgw5ZTOzIzODI="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDAxOzIwMTktMDMtMjI7MTI6Mzk6NTYgw5ZTOzE7MjQ5NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="9^(0.5)" newline="True"/>
+            <output expression="9^(1/2)" newline="True"/>
+            <output expression="sqrt(9)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

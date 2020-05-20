@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-12-21 11:55:45 &#214;&#214;"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE2OzIwMTgtMTItMTQ7MTA6NDM6NDAgw5bDljsyNTEw"/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE2OzIwMTgtMTItMjE7MTE6NTU6NDUgw5bDljsyOzI2MjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Selam&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

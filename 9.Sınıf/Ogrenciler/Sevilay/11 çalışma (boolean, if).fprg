@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-12-21 01:48:31 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDAxOzIwMTgtMTItMjE7MDE6NDE6NTkgw5ZTOzIzNzk="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDAxOzIwMTgtMTItMjE7MDE6NDg6MzEgw5ZTOzE7MjQ4NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sonu&#231;" type="Boolean" array="False" size=""/>
+            <assign variable="sonu&#231;" expression="1!=5"/>
+            <if expression="sonu&#231;==true">
+                <then>
+                    <output expression="&quot;Buras&#305; Do&#287;ru &#199;&#305;k&#305;&#351;&#305;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Buras&#305; Yanl&#305;&#351; &#199;&#305;k&#305;&#351;&#305;&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

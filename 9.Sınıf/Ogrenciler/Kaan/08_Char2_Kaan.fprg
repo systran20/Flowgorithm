@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-01-04 01:36:38 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE3OzIwMTktMDEtMDQ7MTI6MDQ6NDAgw5ZTOzIzNzc="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE3OzIwMTktMDEtMDQ7MDE6MzY6Mzggw5ZTOzM7MjQ5Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="mesaj" type="String" array="False" size=""/>
+            <declare name="saya&#231;" type="Integer" array="False" size=""/>
+            <assign variable="mesaj" expression="&quot;Merhaba&quot;"/>
+            <for variable="saya&#231;" start="Len(mesaj) - 1" end="0" direction="dec" step="1">
+                <output expression="Char(mesaj,saya&#231;)" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

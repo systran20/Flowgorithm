@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-01 12:07:57 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDAxOzIwMTktMDMtMDE7MTE6MjY6NDYgw5bDljsyNTA5"/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDAxOzIwMTktMDMtMDE7MTI6MDc6NTcgw5ZTOzE7MjQ4OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="toplam" type="Integer" array="False" size=""/>
+            <assign variable="toplam" expression="0"/>
+            <declare name="SAYILAR" type="Integer" array="True" size="100"/>
+            <declare name="ortalama" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="99" direction="inc" step="1">
+                <assign variable="SAYILAR[i]" expression="random(100)"/>
+                <assign variable="toplam" expression="toplam + SAYILAR[i]"/>
+                <assign variable="ortalama" expression="toplam/100"/>
+            </for>
+            <output expression="ortalama" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

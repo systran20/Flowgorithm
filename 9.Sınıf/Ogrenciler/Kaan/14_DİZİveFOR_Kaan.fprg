@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-01 12:21:37 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE3OzIwMTktMDMtMDE7MTE6NTQ6MDMgw5bDljsyNTEw"/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE3OzIwMTktMDMtMDE7MTI6MjE6Mzcgw5ZTOzE7MjQ4OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="1 ile 100 aras&#305;ndaki rastgele 5 say&#305;n&#305;n toplam&#305;n&#305; verir.&#13;&#10;D&#304;Z&#304; ve FOR d&#246;ng&#252;s&#252; i&#231;erir"/>
+            <declare name="SAYILAR" type="Integer" array="True" size="5"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="Toplam" type="Integer" array="False" size=""/>
+            <assign variable="Toplam" expression="0"/>
+            <for variable="i" start="0" end="4" direction="inc" step="1">
+                <assign variable="SAYILAR[i]" expression="Random(100)+1"/>
+                <assign variable="Toplam" expression="Toplam + SAYILAR[i]"/>
+            </for>
+            <output expression="Toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

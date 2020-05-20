@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-12-21 12:48:35 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE2OzIwMTgtMTItMjE7MTI6Mzk6NDAgw5ZTOzIzODQ="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE2OzIwMTgtMTItMjE7MTI6NDg6MzUgw5ZTOzE7MjQ5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="BOOLEAN VER&#304; T&#304;P&#304; TRUE FALSE DE&#286;ER&#304; ALIR"/>
+            <declare name="SONU&#199;" type="Boolean" array="False" size=""/>
+            <assign variable="SONU&#199;" expression="1!=5"/>
+            <if expression="SONU&#199; == TRUE">
+                <then>
+                    <output expression="&quot;BURASI DO&#286;RU &#199;IKI&#350;I&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;BURASI YANLI&#350; &#199;IKI&#350;I&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-22 11:21:57 &#214;&#214;"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDAxOzIwMTktMDMtMjI7MTE6MDQ6MTMgw5bDljsyNTAy"/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDAxOzIwMTktMDMtMjI7MTE6MjE6NTcgw5bDljsxOzI2MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <output expression="&quot;Bir say&#305; giriniz: &quot;" newline="True"/>
+            <input variable="sayi"/>
+            <output expression="kare(sayi)" newline="True"/>
+        </body>
+    </function>
+    <function name="kare" type="Integer" variable="sonuc">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonuc" type="Integer" array="False" size=""/>
+            <assign variable="sonuc" expression="a * a"/>
+        </body>
+    </function>
+</flowgorithm>

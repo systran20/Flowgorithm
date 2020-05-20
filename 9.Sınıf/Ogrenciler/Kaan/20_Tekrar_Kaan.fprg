@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-22 02:10:07 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE3OzIwMTktMDMtMjI7MDE6MzI6NTcgw5ZTOzIzODY="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE3OzIwMTktMDMtMjI7MDI6MTA6MDcgw5ZTOzE7MjQ4Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tekrar" type="Integer" array="False" size=""/>
+            <declare name="yazi" type="String" array="False" size=""/>
+            <output expression="&quot;Mesaj&#305;n ka&#231; kere ekrana yaz&#305;lmas&#305;n&#305; istersiniz?&quot;" newline="True"/>
+            <input variable="tekrar"/>
+            <call expression="YAZ(yazi,tekrar)"/>
+        </body>
+    </function>
+    <function name="YAZ" type="None" variable="">
+        <parameters>
+            <parameter name="mesaj" type="String" array="False"/>
+            <parameter name="a" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <if expression="a&gt;0">
+                <then>
+                    <declare name="i" type="Integer" array="False" size=""/>
+                    <for variable="i" start="1" end="a" direction="inc" step="1">
+                        <output expression="mesaj" newline="True"/>
+                    </for>
+                </then>
+                <else>
+                    <output expression="&quot;Tekrar de&#287;erini s&#305;f&#305;rdan b&#252;y&#252;k giriniz&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-12-21 12:19:04 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDAxOzIwMTgtMTItMjE7MTI6MTY6MDggw5ZTOzIzNzc="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDAxOzIwMTgtMTItMjE7MTI6MTk6MDQgw5ZTOzE7MjQ4NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Boolean veri tipi TRUE/FALSE de&#287;eri al&#305;r"/>
+            <declare name="SONU&#199;" type="Boolean" array="False" size=""/>
+            <assign variable="SONU&#199;" expression="1&gt;5"/>
+            <output expression="SONU&#199;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

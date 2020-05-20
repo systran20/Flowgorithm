@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-02-08 02:02:08 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE3OzIwMTktMDItMDg7MDE6NTM6MTkgw5ZTOzIzOTA="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE3OzIwMTktMDItMDg7MDI6MDI6MDggw5ZTOzE7MjQ5MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="isim" type="String" array="False" size=""/>
+            <declare name="uzunluk" type="Integer" array="False" size=""/>
+            <declare name="&#304;" type="Integer" array="False" size=""/>
+            <input variable="isim"/>
+            <assign variable="uzunluk" expression="Len(isim)"/>
+            <for variable="&#304;" start="1" end="uzunluk" direction="inc" step="1">
+                <output expression="ToCode(Char(isim,&#304;-1))" newline="True"/>
+            </for>
+            <output expression="0" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

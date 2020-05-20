@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-02-22 01:00:05 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDAxOzIwMTktMDItMjI7MTI6NDA6MTggw5ZTOzIzNzY="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDAxOzIwMTktMDItMjI7MDE6MDA6MDUgw5ZTOzE7MjQ3NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="OGRENCI" type="String" array="True" size="5"/>
+            <assign variable="OGRENCI[0]" expression="&quot;Sevilay&quot;"/>
+            <assign variable="OGRENCI[1]" expression="&quot;Ceren&quot;"/>
+            <assign variable="OGRENCI[2]" expression="&quot;Hilal&quot;"/>
+            <assign variable="OGRENCI[3]" expression="&quot;Buse&quot;"/>
+            <assign variable="OGRENCI[4]" expression="&quot;Zetareticuli&quot;"/>
+        </body>
+    </function>
+</flowgorithm>

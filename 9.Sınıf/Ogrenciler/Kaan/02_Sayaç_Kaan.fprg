@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-12-14 01:51:33 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE3OzIwMTgtMTItMTQ7MDE6NDE6MDIgw5ZTOzIzNzY="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE3OzIwMTgtMTItMTQ7MDE6NTE6MzMgw5ZTOzE7MjQ4OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="Toplam" type="Integer" array="False" size=""/>
+            <assign variable="Toplam" expression="0"/>
+            <for variable="x" start="1" end="100" direction="inc" step="1">
+                <assign variable="Toplam" expression="Toplam + x"/>
+                <output expression="Toplam" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

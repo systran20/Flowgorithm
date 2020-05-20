@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-08 11:09:01 &#214;&#214;"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE2OzIwMTktMDMtMDg7MTA6NTI6MzYgw5bDljsyNTE5"/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE2OzIwMTktMDMtMDg7MTE6MDk6MDEgw5bDljsxOzI2MjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="TOPLA(5,10)"/>
+        </body>
+    </function>
+    <function name="TOPLA" type="None" variable="">
+        <parameters>
+            <parameter name="A" type="Integer" array="False"/>
+            <parameter name="B" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <output expression="A+B" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-08 11:15:58 &#214;&#214;"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE2OzIwMTktMDMtMDg7MTE6MDk6MDcgw5bDljsyNTIw"/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE2OzIwMTktMDMtMDg7MTE6MTU6NTggw5bDljsxOzI2MzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="isimYAZ()"/>
+        </body>
+    </function>
+    <function name="isimYAZ" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;SILA ARICAN&quot;" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

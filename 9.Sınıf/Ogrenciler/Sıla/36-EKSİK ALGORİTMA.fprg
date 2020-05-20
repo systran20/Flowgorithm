@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-22 02:09:36 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE2OzIwMTktMDMtMjI7MDI6MDQ6MDUgw5ZTOzIzNzg="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE2OzIwMTktMDMtMjI7MDI6MDk6MzYgw5ZTOzE7MjQ5NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="YAZ" type="None" variable="">
+        <parameters>
+            <parameter name="MESAJ" type="String" array="False"/>
+            <parameter name="A" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <comment text="TRKRAR SAYISI SIFIRDAN B&#220;Y&#220;K OLMALI"/>
+            <if expression="A&gt;0">
+                <then>
+                    <comment text="&#304; DE&#286;&#304;&#350;KEN&#304;N&#304; BA&#350;TA DE&#286;&#304;L BURADA TANIMLIYORUZ &#199;&#220;NK&#220; BELLEKTE BO&#350; YER KAPLAMASINI &#304;STEM&#304;YORUZ"/>
+                    <declare name="&#304;" type="Integer" array="False" size=""/>
+                    <for variable="&#304;" start="1" end="A" direction="inc" step="1">
+                        <output expression="MESAJ" newline="True"/>
+                    </for>
+                </then>
+                <else>
+                    <output expression="&quot;TEKRAR DE&#286;ER&#304;N&#304; SIFIRDAN B&#220;Y&#220;K G&#304;R&#304;N&#304;Z.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

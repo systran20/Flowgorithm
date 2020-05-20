@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-15 12:28:52 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE2OzIwMTktMDMtMTU7MTI6MDY6MDAgw5ZTOzIzNzg="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE2OzIwMTktMDMtMTU7MTI6Mjg6NTIgw5ZTOzY7MjUwMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="girdi" type="String" array="False" size=""/>
+            <input variable="girdi"/>
+            <call expression="selam(girdi)"/>
+        </body>
+    </function>
+    <function name="selam" type="None" variable="">
+        <parameters>
+            <parameter name="isim" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="100" direction="inc" step="1">
+                <output expression="&quot;selam&quot; &amp; isim" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

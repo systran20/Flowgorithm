@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-12-14 01:42:31 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDAxOzIwMTgtMTItMTQ7MTI6MTY6NDkgw5ZTOzIzODQ="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDAxOzIwMTgtMTItMTQ7MDE6NDI6MzEgw5ZTOzEyOzI1MzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="isim" type="String" array="False" size=""/>
+            <input variable="isim"/>
+            <declare name="soyisim" type="String" array="False" size=""/>
+            <input variable="soyisim"/>
+            <output expression="&quot;Ho&#351;geldiniz &quot; &amp; isim &amp; &quot; &quot; &amp; soyisim" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

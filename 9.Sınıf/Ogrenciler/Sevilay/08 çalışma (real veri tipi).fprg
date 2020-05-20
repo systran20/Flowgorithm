@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-12-21 12:01:03 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDAxOzIwMTgtMTItMjE7MTE6NTM6NDYgw5bDljsyNTEw"/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDAxOzIwMTgtMTItMjE7MTI6MDE6MDMgw5ZTOzE7MjQ3NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="reel veri tipi &#246;rne&#287;i"/>
+            <comment text="virg&#252;l kullan&#305;rsan reel say&#305;larda sana syntax yani s&#246;z dizilimi hatas&#305; verir. nokta kullanmal&#305;s&#305;n"/>
+            <declare name="r" type="Real" array="False" size=""/>
+            <assign variable="r" expression="4.2"/>
+            <output expression="r" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

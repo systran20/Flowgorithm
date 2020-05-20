@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-02-08 11:13:54 &#214;&#214;"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDAxOzIwMTktMDItMDg7MTE6MDc6MTEgw5bDljsyNTA2"/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDAxOzIwMTktMDItMDg7MTE6MTM6NTQgw5bDljsxOzI2MTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="eklenen say&#305; ile ba&#351;lar toplam&#305;ndan bir &#246;nceki karakterle(dahil) biter.&#13;&#10;1....5 aras&#305; say&#305;lar&#305; g&#246;sterir."/>
+            <output expression="random(5) + 1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

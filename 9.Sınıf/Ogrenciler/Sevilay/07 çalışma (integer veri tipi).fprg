@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-12-21 11:53:36 &#214;&#214;"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDAxOzIwMTgtMTItMjE7MTE6NDU6MjYgw5bDljsyNTA5"/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDAxOzIwMTgtMTItMjE7MTE6NTM6MzYgw5bDljsxOzI2MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="sonu&#231; de&#287;i&#351;keni tam say&#305; oldu&#287;u i&#231;in &#231;&#305;kt&#305; 1 olur."/>
+            <declare name="sonu&#231;" type="Integer" array="False" size=""/>
+            <assign variable="sonu&#231;" expression="5/3"/>
+            <output expression="sonu&#231;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

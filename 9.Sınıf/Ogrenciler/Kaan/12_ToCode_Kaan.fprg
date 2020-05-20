@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-02-08 02:08:57 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE3OzIwMTktMDItMDg7MDI6MDI6MTggw5ZTOzIzODQ="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE3OzIwMTktMDItMDg7MDI6MDg6NTcgw5ZTOzE7MjUwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;" type="Integer" array="False" size=""/>
+            <assign variable="say&#305;" expression="-1"/>
+            <while expression="say&#305;!=0">
+                <input variable="say&#305;"/>
+                <output expression="ToChar(say&#305;)" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

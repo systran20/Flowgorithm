@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-22 12:25:49 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE2OzIwMTktMDMtMjI7MTI6MTE6MDcgw5ZTOzIzNzk="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE2OzIwMTktMDMtMjI7MTI6MjU6NDkgw5ZTOzU7MjUwMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="SAY&#304;" type="Integer" array="False" size=""/>
+            <output expression="&quot;B&#304;R SAYI G&#304;R&#304;N&#304;Z&quot;" newline="True"/>
+            <input variable="SAY&#304;"/>
+            <output expression="KAREAL(SAY&#304;)" newline="True"/>
+        </body>
+    </function>
+    <function name="KAREAL" type="Integer" variable="SONUC">
+        <parameters>
+            <parameter name="A" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="SONUC" type="Integer" array="False" size=""/>
+            <assign variable="SONUC" expression="A*A"/>
+        </body>
+    </function>
+</flowgorithm>

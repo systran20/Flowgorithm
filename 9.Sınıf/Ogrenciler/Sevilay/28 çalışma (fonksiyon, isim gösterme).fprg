@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-08 11:13:32 &#214;&#214;"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDAxOzIwMTktMDMtMDg7MTE6MTA6MTAgw5bDljsyNTAw"/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDAxOzIwMTktMDMtMDg7MTE6MTM6MzIgw5bDljsxOzI2MTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="isimYAZ"/>
+        </body>
+    </function>
+    <function name="isimYAZ" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;sevilay&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-12-21 10:51:41 &#214;&#214;"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE2OzIwMTgtMTItMjE7MTA6NDY6NTUgw5bDljsyNTE3"/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE2OzIwMTgtMTItMjE7MTA6NTE6NDEgw5bDljsxOzI2MTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="SONU&#199; DE&#286;&#304;&#350;KEN&#304; TAM SAYI OLDU&#286;U &#304;&#199;&#304;N &#199;IKTI 1 OLUR."/>
+            <declare name="SONU&#199;" type="Integer" array="False" size=""/>
+            <assign variable="SONU&#199;" expression="5/3"/>
+            <output expression="SONU&#199;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

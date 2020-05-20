@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-02-22 01:00:25 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE2OzIwMTktMDItMjI7MTI6NTM6NTMgw5ZTOzIzODU="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE2OzIwMTktMDItMjI7MDE6MDA6MjUgw5ZTOzE7MjQ4Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="&#214;GRENCI" type="String" array="True" size="3"/>
+            <assign variable="&#214;GRENCI[0]" expression="SENA"/>
+            <assign variable="&#214;GRENCI[1]" expression="ESMA"/>
+            <assign variable="&#214;GRENCI[2]" expression="BUSE"/>
+        </body>
+    </function>
+</flowgorithm>

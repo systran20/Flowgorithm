@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-22 01:11:31 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDAxOzIwMTktMDMtMjI7MTI6NDc6MDcgw5ZTOzIzODI="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDAxOzIwMTktMDMtMjI7MDE6MTE6MzEgw5ZTOzU7MjQ4MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="mesaj" type="String" array="False" size=""/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ekrana yazd&#305;rmak istedi&#287;iniz mesaj&#305; giriniz.&quot;" newline="True"/>
+            <input variable="mesaj"/>
+            <output expression="&quot;Mesaj&#305;n ka&#231; kere ekrana yaz&#305;lmas&#305;n&#305; istiyorsunuz?&quot;" newline="True"/>
+            <input variable="a"/>
+            <call expression="yaz(mesaj, a)"/>
+        </body>
+    </function>
+    <function name="yaz" type="None" variable="">
+        <parameters>
+            <parameter name="mesaj" type="String" array="False"/>
+            <parameter name="tekrarsayi" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <if expression="tekrarsayi&gt;0">
+                <then>
+                    <for variable="i" start="1" end="tekrarsayi" direction="inc" step="1">
+                        <output expression="mesaj" newline="True"/>
+                    </for>
+                </then>
+                <else>
+                    <output expression="&quot;Tekrar de&#287;erini s&#305;f&#305;rdan b&#252;y&#252;k giriniz.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

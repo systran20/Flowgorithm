@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-01-04 10:55:35 &#214;&#214;"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE2OzIwMTktMDEtMDQ7MTA6NDM6MDEgw5bDljsyNTA1"/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE2OzIwMTktMDEtMDQ7MTA6NTU6MzUgw5bDljsxOzI2MjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Len(s)fonksiyonu string tipindeki verinin karakter uzunlu&#287;unu verir."/>
+            <declare name="isim" type="String" array="False" size=""/>
+            <assign variable="isim" expression="&quot;SILA ARICAN&quot;"/>
+            <output expression="Len (isim)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-22 12:26:35 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE3OzIwMTktMDMtMjI7MTI6MjU6MDEgw5ZTOzIzNzk="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE3OzIwMTktMDMtMjI7MTI6MjY6MzUgw5ZTOzE7MjQ5NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="KAREAL(9)" newline="True"/>
+        </body>
+    </function>
+    <function name="KAREAL" type="Integer" variable="sonuc">
+        <parameters>
+            <parameter name="x" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonuc" type="Integer" array="False" size=""/>
+            <assign variable="sonuc" expression="x*x"/>
+        </body>
+    </function>
+</flowgorithm>

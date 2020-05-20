@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-02-08 11:13:07 &#214;&#214;"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE2OzIwMTktMDItMDg7MTE6MDY6Mjkgw5bDljsyNTIw"/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE2OzIwMTktMDItMDg7MTE6MTM6MDcgw5bDljs0OzI2MjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="0 ve 9 aras&#305;nda rastgele say&#305; &#252;retir."/>
+            <output expression="Random(10)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2018-12-14 11:09:45 &#214;&#214;"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE2OzIwMTgtMTItMTQ7MTE6MDY6NTcgw5bDljsyNTE4"/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE2OzIwMTgtMTItMTQ7MTE6MDk6NDUgw5bDljsxOzI2MjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="SAYI" type="Integer" array="False" size=""/>
+            <input variable="SAYI"/>
+            <output expression="&quot;TEKRAR DENE&quot;  &amp;  SAYI" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

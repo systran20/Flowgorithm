@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-01-04 02:16:04 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDAxOzIwMTgtMTItMjE7MTI6MTM6MDQgw5ZTOzIzNzA="/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDAxOzIwMTktMDEtMDQ7MDI6MTY6MDQgw5ZTOzI7MjQ4MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="&#351;ifre" type="Integer" array="False" size=""/>
+            <assign variable="&#351;ifre" expression="20"/>
+            <input variable="&#351;ifre"/>
+            <if expression="&#351;ifre=20">
+                <then>
+                    <output expression="&quot;giri&#351; tamam&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;hatal&#305; giri&#351;&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

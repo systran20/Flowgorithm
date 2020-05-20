@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ogrenci"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-03-15 12:24:52 &#214;S"/>
+        <attribute name="created" value="T2dyZW5jaTtCVDE3OzIwMTktMDMtMTU7MTE6NTY6MTUgw5bDljsyNTIw"/>
+        <attribute name="edited" value="T2dyZW5jaTtCVDE3OzIwMTktMDMtMTU7MTI6MjQ6NTIgw5ZTOzE7MjQ5NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="SELAM(&quot;KAAN&quot;)"/>
+        </body>
+    </function>
+    <function name="Selam" type="String" variable="">
+        <parameters>
+            <parameter name="isim" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="100" direction="inc" step="1">
+                <output expression="&quot;SELAM&quot; &amp; isim" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
