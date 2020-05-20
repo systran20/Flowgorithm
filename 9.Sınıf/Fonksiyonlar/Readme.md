@@ -1,0 +1,1 @@
+Fonksiyonlar konusu için örnekler
