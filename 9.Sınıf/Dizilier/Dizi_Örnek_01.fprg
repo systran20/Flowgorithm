@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#214;&#286;RETMEN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-12 12:03:13 &#214;&#214;"/>
+        <attribute name="created" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0xMTswOToyNjoxMCDDllM7Mjk4Mg=="/>
+        <attribute name="edited" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0xMjsxMjowMzoxMyDDlsOWOzE7MzIxNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Toplam" type="Integer" array="False" size=""/>
+            <assign variable="Toplam" expression="0"/>
+            <declare name="ElemanSayisi" type="Integer" array="False" size=""/>
+            <declare name="MinDeger" type="Integer" array="False" size=""/>
+            <assign variable="MinDeger" expression="99999"/>
+            <declare name="MakDeger" type="Integer" array="False" size=""/>
+            <assign variable="MakDeger" expression="-99999"/>
+            <output expression="&quot;Ka&#231; elemanl&#305; Dizi olu&#351;turmak istiyorsun&quot;" newline="True"/>
+            <input variable="ElemanSayisi"/>
+            <declare name="DEGERLER" type="Integer" array="True" size="ElemanSayisi"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="Size(DEGERLER)-1" direction="inc" step="1">
+                <assign variable="DEGERLER[i]" expression="Random(101)"/>
+                <assign variable="Toplam" expression="Toplam + DEGERLER[i]"/>
+                <if expression="DEGERLER[i]&lt;MinDeger">
+                    <then>
+                        <assign variable="MinDeger" expression="DEGERLER[i]"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="DEGERLER[i]&gt;MakDeger">
+                    <then>
+                        <assign variable="MakDeger" expression="DEGERLER[i]"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Toplam=&quot; &amp; Toplam" newline="True"/>
+            <output expression="&quot;Ortalama=&quot; &amp; Toplam / Size(DEGERLER)" newline="True"/>
+            <output expression="&quot;En K&#252;&#231;&#252;k=&quot; &amp; MinDeger" newline="True"/>
+            <output expression="&quot;En B&#252;y&#252;k=&quot; &amp; MakDeger" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
