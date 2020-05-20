@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#214;&#286;RETMEN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-04-23 03:36:45 &#214;S"/>
+        <attribute name="created" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNC0yMzswMzoyNzo0MiDDllM7Mjk4NA=="/>
+        <attribute name="edited" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNC0yMzswMzozNjo0NSDDllM7MjszMDk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="bir ihtimalin ger&#231;ekle&#351;mesini belirli bir ORANA BA&#286;LAMA"/>
+            <declare name="Bir, Sifir" type="Integer" array="False" size=""/>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <declare name="&#304;" type="Integer" array="False" size=""/>
+            <assign variable="Bir" expression="0"/>
+            <assign variable="Sifir" expression="0"/>
+            <for variable="&#304;" start="1" end="100" direction="inc" step="1">
+                <assign variable="sayi" expression="Random(101)"/>
+                <if expression="sayi&lt;=70">
+                    <then>
+                        <comment text="Buras&#305; %70 &#199;ALI&#350;IR"/>
+                        <output expression="1" newline="False"/>
+                        <assign variable="Bir" expression="Bir + 1"/>
+                    </then>
+                    <else>
+                        <comment text="Buras&#305; %30 &#199;ALI&#350;IR"/>
+                        <output expression="0" newline="False"/>
+                        <assign variable="Sifir" expression="Sifir + 1"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#214;&#286;RETMEN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-12 02:53:46 &#214;&#214;"/>
+        <attribute name="created" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNC0yMjswNDoxMDoxOSDDllM7Mjk4MA=="/>
+        <attribute name="edited" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0xMjswMjo1Mzo0NiDDlsOWOzU7MzIyOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="&#8220;1,2,3,4,5&#8221; olarak verilen V&#304;RG&#220;L ile ayr&#305;lm&#305;&#351; ifadedeki say&#305;lar&#305; bir diziye aktar&#305;n&#305;z."/>
+            <declare name="Kr" type="String" array="False" size=""/>
+            <declare name="Tmp" type="String" array="False" size=""/>
+            <assign variable="Tmp" expression="&quot;&quot;"/>
+            <declare name="Sayilar" type="String" array="False" size=""/>
+            <declare name="Adet" type="Integer" array="False" size=""/>
+            <assign variable="Adet" expression="0"/>
+            <assign variable="Sayilar" expression="BosluklariSil(&quot; ,,,,1 2,3 1,44,5 0 0&quot;)"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="len(Sayilar)-1" direction="inc" step="1">
+                <assign variable="Kr" expression="Char(Sayilar,i)"/>
+                <if expression="Kr==&quot;,&quot;">
+                    <then>
+                        <if expression="Tmp!=&quot;&quot;">
+                            <then>
+                                <output expression="Tmp" newline="True"/>
+                                <assign variable="Tmp" expression="&quot;&quot;"/>
+                                <assign variable="Adet" expression="Adet+1"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else>
+                        <assign variable="Tmp" expression="Tmp &amp; Kr"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="Tmp" newline="True"/>
+            <assign variable="Adet" expression="Adet+1"/>
+            <output expression="&quot;Adet=&quot; &amp; adet" newline="True"/>
+            <comment text=""/>
+            <comment text=""/>
+            <comment text=""/>
+            <comment text=""/>
+        </body>
+    </function>
+    <function name="BosluklariSil" type="String" variable="sonuc">
+        <parameters>
+            <parameter name="mesaj" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonuc" type="String" array="False" size=""/>
+            <assign variable="sonuc" expression="&quot;&quot;"/>
+            <if expression="len(mesaj)&gt;0">
+                <then>
+                    <output expression="&quot;(DEBUG) BO&#350;LUK S&#304;L&#304;NECEK MESAJ: &quot; &amp; mesaj" newline="True"/>
+                    <declare name="i" type="Integer" array="False" size=""/>
+                    <for variable="i" start="0" end="len(mesaj)-1" direction="inc" step="1">
+                        <if expression="Char(mesaj,i)!=&quot; &quot;">
+                            <then>
+                                <assign variable="sonuc" expression="sonuc &amp; Char(mesaj,i)"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </for>
+                    <output expression="&quot;(DEBUG) BO&#350;LUK S&#304;LM&#304;&#350; MESAJ: &quot; &amp; sonuc" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Mesaj 0 uzunlu&#287;unda&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
