@@ -1,1 +1,0 @@
-# Dizi işlemleri / örnekleri
