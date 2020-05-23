@@ -1,4 +1,5 @@
-#ALGORİTMA SORU ÖRNEKLERİ
+# ALGORİTMA SORU ÖRNEKLERİ
+
 1.    Kelimeyi tersten yazma. (dünya --> aynüd)
 2.    Girilen kelime, cümle, sayının PALİNDROM olup/olmadığını bulma (“kek” ,  12321, “ey edip adanada pide ye”)
 3.    Girilen kelimenin, aynı hecenin tekrarı ile oluşup oluşmadığını bulma  (Kaykay, Mermer, Gaga …)
