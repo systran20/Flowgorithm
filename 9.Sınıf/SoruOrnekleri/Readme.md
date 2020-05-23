@@ -10,6 +10,6 @@
 8.    Kelimeyi anlamlı karıştırma  (selam --> sleam, merhaba-->mbheara gibi) 
 9.    Girilen bir sayının ASAL SAYI olup olmadığını bulma. 
 10.    Bir sayının asal çarpanlarını bulma. 
-11.    Ad Soyadı, düzgün eposta adresine dönüştürme (Ömer ERMİŞ    omerermis@gmail.com) 
+11.    Ad Soyadı, düzgün eposta adresine dönüştürme (Ömer ERMİŞ -->  omerermis@gmail.com) 
 12.    0-100 aralığında 10 adımda sayı tahmin oyunu
 13.    Km/Mil, Kg/Gram, Döviz Çevirme işlemleri
