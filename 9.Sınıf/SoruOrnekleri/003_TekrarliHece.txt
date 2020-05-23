@@ -1,0 +1,17 @@
+-kelime uzunluğu ile olan bağıntı?
++KELİME UZUNLUĞU YARISI
++KELİME UZUNLUĞU (2n) 2nin katı ÇİFT
+=>DEDE = 4
+
+  i  i+(uzunluk/2) =>
+  0, 0+(uzunluk/2) => 0,2
+  1, 1+(uzunluk/2) => 1,3
+ 
+=>MERMER = 6
+  0, 0+(6/2) => 0,3
+  1, 1+(6/2) => 1,4
+  2, 2+(6/2) => 2,5
+
+   
+
+

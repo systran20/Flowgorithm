@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#214;&#286;RETMEN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-22 10:52:25 &#214;S"/>
+        <attribute name="created" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0yMjsxMDowMzoxOSDDllM7Mjk4MA=="/>
+        <attribute name="edited" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0yMjsxMDo1MjoyNSDDllM7MTszMDg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kelime" type="String" array="False" size=""/>
+            <output expression="&quot;bir kelime gir:&quot;" newline="True"/>
+            <input variable="kelime"/>
+            <if expression="Tekrar(kelime)==true">
+                <then>
+                    <output expression="&quot;tekrarl&#305; heceden olu&#351;uyor&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;maalesef&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+    <function name="Tekrar" type="Boolean" variable="sonuc">
+        <parameters>
+            <parameter name="kelime" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonuc" type="Boolean" array="False" size=""/>
+            <declare name="uzunluk" type="Integer" array="False" size=""/>
+            <assign variable="uzunluk" expression="len(kelime)"/>
+            <comment text="uzunlu&#287;un MOD ' unu bul&#13;&#10;0 ise &#199;&#304;FT&#13;&#10;1 ise TEK"/>
+            <if expression="(uzunluk % 2) == 0">
+                <then>
+                    <declare name="i" type="Integer" array="False" size=""/>
+                    <declare name="a" type="String" array="False" size=""/>
+                    <declare name="b" type="String" array="False" size=""/>
+                    <declare name="sayac" type="Integer" array="False" size=""/>
+                    <assign variable="sayac" expression="0"/>
+                    <for variable="i" start="0" end="(uzunluk/2)-1" direction="inc" step="1">
+                        <assign variable="a" expression="Char(kelime,i)"/>
+                        <assign variable="b" expression="Char(kelime , i+(uzunluk/2))"/>
+                        <if expression="a==b">
+                            <then>
+                                <assign variable="sayac" expression="sayac+1"/>
+                            </then>
+                            <else>
+                                <assign variable="sayac" expression="-1000"/>
+                            </else>
+                        </if>
+                    </for>
+                    <if expression="sayac&gt;0">
+                        <then>
+                            <assign variable="sonuc" expression="true"/>
+                        </then>
+                        <else>
+                            <assign variable="sonuc" expression="false"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <breakpoint/>
+                    <assign variable="sonuc" expression="false"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

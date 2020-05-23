@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#214;&#286;RETMEN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-23 03:53:16 &#214;&#214;"/>
+        <attribute name="created" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0yMzswMjowNjozMiDDlsOWOzMxMTE="/>
+        <attribute name="edited" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0yMzswMzo1MzoxNiDDlsOWOzc7MzIzMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="KEL&#304;ME KARI&#350;TIRMA&#13;&#10;Selam --&gt; mlase"/>
+            <declare name="girdi" type="String" array="False" size=""/>
+            <declare name="tmpStr" type="String" array="False" size=""/>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <do expression="tmpStr!=&quot;0&quot;">
+                <assign variable="tmpStr" expression="&quot;&quot;"/>
+                <output expression="&quot;Bir kelime giriniz:&quot;" newline="True"/>
+                <input variable="girdi"/>
+                <while expression="len(girdi)&gt;0">
+                    <assign variable="x" expression="Random(Len(girdi))"/>
+                    <assign variable="tmpStr" expression="tmpStr &amp; Char(girdi , x)"/>
+                    <assign variable="girdi" expression="BiriniSil(girdi,x)"/>
+                </while>
+                <output expression="tmpStr" newline="True"/>
+            </do>
+        </body>
+    </function>
+    <function name="BiriniSil" type="String" variable="sonuc">
+        <parameters>
+            <parameter name="kelime" type="String" array="False"/>
+            <parameter name="n" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="sonuc" type="String" array="False" size=""/>
+            <assign variable="sonuc" expression="&quot;&quot;"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="len(kelime)-1" direction="inc" step="1">
+                <if expression="i!=n">
+                    <then>
+                        <assign variable="sonuc" expression="sonuc &amp; Char(kelime ,i)"/>
+                    </then>
+                    <else>
+                        <comment text="yyy"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

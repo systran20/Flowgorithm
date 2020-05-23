@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#214;&#286;RETMEN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-23 04:20:04 &#214;&#214;"/>
+        <attribute name="created" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0yMzswMjowNjozMiDDlsOWOzMxMTE="/>
+        <attribute name="edited" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0yMzswNDoyMDowNCDDlsOWOzEyOzMyNjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="ASAL SAYI TEST"/>
+            <comment text="sadece kendine ve 1 e TAM olarak b&#246;l&#252;nebilmesi laz&#305;m"/>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <assign variable="sayi" expression="157"/>
+            <output expression="sayi &amp; &quot; sayisi asal mi? &quot; &amp; AsalMi(sayi)" newline="True"/>
+        </body>
+    </function>
+    <function name="AsalMi" type="Boolean" variable="sonuc">
+        <parameters>
+            <parameter name="sayi" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <comment text="say&#305; &#231;iftse zaten asal de&#287;ildir.&#13;&#10;bunun i&#231;in &#246;nce &#231;ift olup olmad&#305;&#287;&#305; kontrol edilirse performans kazan&#305;lm&#305;&#351; olur."/>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="sonuc" type="Boolean" array="False" size=""/>
+            <assign variable="sonuc" expression="true"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="sayi-1" end="2" direction="dec" step="1">
+                <assign variable="x" expression="sayi/i"/>
+                <if expression="sayi==(i*x)">
+                    <then>
+                        <assign variable="sonuc" expression="false"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

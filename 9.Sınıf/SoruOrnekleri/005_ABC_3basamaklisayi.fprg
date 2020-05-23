@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#214;&#286;RETMEN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-23 01:40:44 &#214;&#214;"/>
+        <attribute name="created" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0yMzswMToyNjozMSDDlsOWOzMxMTE="/>
+        <attribute name="edited" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNS0yMzswMTo0MDo0NCDDlsOWOzE7MzIxOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="abc 3 basamakl&#305; bir say&#305; ise&#13;&#10;abc=a^3 + b^3 + c^3 olan bir say&#305; var m&#305;d&#305;r?"/>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="100" end="999" direction="inc" step="1">
+                <assign variable="a" expression="i/100"/>
+                <assign variable="b" expression="(i-a*100)/10"/>
+                <assign variable="c" expression="i-a*100-b*10"/>
+                <assign variable="sayi" expression="a^3 + b^3 + c^3"/>
+                <if expression="i==sayi">
+                    <then>
+                        <output expression="i" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
