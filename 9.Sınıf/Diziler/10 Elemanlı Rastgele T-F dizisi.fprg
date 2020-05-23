@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="&#214;&#286;RETMEN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-04-23 03:27:05 &#214;S"/>
+        <attribute name="created" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNC0yMzswMzowMDo0MyDDllM7Mjk3Ng=="/>
+        <attribute name="edited" value="w5bEnlJFVE1FTjtCVC1MQUJBTkE7MjAyMC0wNC0yMzswMzoyNzowNSDDllM7MjszMDky"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="10 elemanl&#305; BOOLEAN diziyi rastgele olarak True/False ile doldurur."/>
+            <declare name="sayilar" type="Boolean" array="True" size="10"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="size(sayilar)-1" direction="inc" step="1">
+                <if expression="Random(2)==0">
+                    <then>
+                        <assign variable="sayilar[i]" expression="true"/>
+                    </then>
+                    <else>
+                        <assign variable="sayilar[i]" expression="false"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
